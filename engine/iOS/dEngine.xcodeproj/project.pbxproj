@@ -152,16 +152,16 @@
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* dEngineAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dEngineAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* dEngineAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dEngineAppDelegate.m; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* dEngineAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dEngineAppDelegate.h; path = ../dEngineAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* dEngineAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = dEngineAppDelegate.m; path = ../dEngineAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Shmup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shmup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28FD14FC0DC6FC130079059D /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
-		28FD14FD0DC6FC130079059D /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		28FD14FC0DC6FC130079059D /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAGLView.h; path = ../EAGLView.h; sourceTree = "<group>"; };
+		28FD14FD0DC6FC130079059D /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAGLView.m; path = ../EAGLView.m; sourceTree = "<group>"; };
 		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
 		2D000D8B14D8D1C80021DC8D /* target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = target.h; sourceTree = "<group>"; };
 		2D1212C81118DE2B0051035B /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
 		2D1212C91118DE2B0051035B /* player.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = player.c; sourceTree = "<group>"; };
@@ -171,17 +171,17 @@
 		2D18F4531121C85F0090DD9E /* enemy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = enemy.c; sourceTree = "<group>"; };
 		2D18F66111225A830090DD9E /* music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = music.h; sourceTree = "<group>"; };
 		2D18F66211225A830090DD9E /* music.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = music.c; sourceTree = "<group>"; };
-		2D18F97211225C420090DD9E /* AQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQ.h; sourceTree = "<group>"; };
-		2D18F97311225C420090DD9E /* AQ.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AQ.mm; sourceTree = "<group>"; };
-		2D18F9B311225E8D0090DD9E /* AQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AQPlayer.h; path = AQ/AQPlayer.h; sourceTree = "<group>"; };
-		2D18F9B411225E8D0090DD9E /* AQPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AQPlayer.mm; path = AQ/AQPlayer.mm; sourceTree = "<group>"; };
-		2D18F9B511225E8D0090DD9E /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CADebugMacros.cpp; path = AQ/CADebugMacros.cpp; sourceTree = "<group>"; };
-		2D18F9B611225E8D0090DD9E /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADebugMacros.h; path = AQ/CADebugMacros.h; sourceTree = "<group>"; };
-		2D18F9B711225E8D0090DD9E /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAMath.h; path = AQ/CAMath.h; sourceTree = "<group>"; };
-		2D18F9B811225E8D0090DD9E /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAStreamBasicDescription.cpp; path = AQ/CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
-		2D18F9B911225E8D0090DD9E /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAStreamBasicDescription.h; path = AQ/CAStreamBasicDescription.h; sourceTree = "<group>"; };
-		2D18F9BA11225E8D0090DD9E /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAXException.cpp; path = AQ/CAXException.cpp; sourceTree = "<group>"; };
-		2D18F9BB11225E8D0090DD9E /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAXException.h; path = AQ/CAXException.h; sourceTree = "<group>"; };
+		2D18F97211225C420090DD9E /* AQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AQ.h; path = ../AQ.h; sourceTree = "<group>"; };
+		2D18F97311225C420090DD9E /* AQ.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AQ.mm; path = ../AQ.mm; sourceTree = "<group>"; };
+		2D18F9B311225E8D0090DD9E /* AQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AQPlayer.h; path = ../AQ/AQPlayer.h; sourceTree = "<group>"; };
+		2D18F9B411225E8D0090DD9E /* AQPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AQPlayer.mm; path = ../AQ/AQPlayer.mm; sourceTree = "<group>"; };
+		2D18F9B511225E8D0090DD9E /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CADebugMacros.cpp; path = ../AQ/CADebugMacros.cpp; sourceTree = "<group>"; };
+		2D18F9B611225E8D0090DD9E /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADebugMacros.h; path = ../AQ/CADebugMacros.h; sourceTree = "<group>"; };
+		2D18F9B711225E8D0090DD9E /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAMath.h; path = ../AQ/CAMath.h; sourceTree = "<group>"; };
+		2D18F9B811225E8D0090DD9E /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAStreamBasicDescription.cpp; path = ../AQ/CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		2D18F9B911225E8D0090DD9E /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAStreamBasicDescription.h; path = ../AQ/CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		2D18F9BA11225E8D0090DD9E /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAXException.cpp; path = ../AQ/CAXException.cpp; sourceTree = "<group>"; };
+		2D18F9BB11225E8D0090DD9E /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAXException.h; path = ../AQ/CAXException.h; sourceTree = "<group>"; };
 		2D18F9D911225EE00090DD9E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		2D18F9E511225F150090DD9E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		2D24189B1275E5A200103BD3 /* lofb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lofb.h; sourceTree = "<group>"; };
@@ -217,7 +217,7 @@
 		2D62C82A10801FA6002411C3 /* commands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commands.h; sourceTree = "<group>"; };
 		2D62C82B10801FA6002411C3 /* commands.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = commands.c; sourceTree = "<group>"; };
 		2D689666103107EF00308FF1 /* filesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filesystem.h; sourceTree = "<group>"; };
-		2D689667103107EF00308FF1 /* filesystem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = filesystem.c; sourceTree = "<group>"; };
+		2D689667103107EF00308FF1 /* filesystem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = filesystem.c; path = filesystem/filesystem.c; sourceTree = "<group>"; };
 		2D73EF64107AAF44007A8E4B /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Entitlements.plist; path = Entitlements.plist; sourceTree = "<group>"; };
 		2D796F1E1215EACF0061ACE8 /* titles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = titles.h; sourceTree = "<group>"; };
 		2D796F1F1215EACF0061ACE8 /* titles.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = titles.c; sourceTree = "<group>"; };
@@ -521,7 +521,7 @@
 				2D2D554B10435D2100BEDC6E /* world.c */,
 				2D2D554A10435D2100BEDC6E /* world.h */,
 			);
-			path = src;
+			path = ../src;
 			sourceTree = "<group>";
 		};
 		2DF362A11037C85D00020D05 /* texture */ = {
@@ -708,7 +708,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "find ${SOURCE_ROOT}/../data -exec touch -cam {} \\;";
+			shellScript = "find ${SOURCE_ROOT}/../../data -exec touch -cam {} \\;";
 		};
 		2D73F2D8107C47F6007A8E4B /* Touch Data */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -722,7 +722,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "touch -cam ${SOURCE_ROOT}/../data";
+			shellScript = "touch -cam ${SOURCE_ROOT}/../../data";
 		};
 		2D7A3813129F38BF00AD251B /* Touch All in data */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -736,7 +736,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "find ${SOURCE_ROOT}/../data -exec touch -cam {} \\;";
+			shellScript = "find ${SOURCE_ROOT}/../../data -exec touch -cam {} \\;";
 		};
 		2D7A3814129F38BF00AD251B /* Touch Data */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -750,7 +750,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "touch -cam ${SOURCE_ROOT}/../data";
+			shellScript = "touch -cam ${SOURCE_ROOT}/../../data";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -894,7 +894,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv7]" = YES;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = shmup.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.fabiensanglard.dEngineBeta;
 				PRODUCT_NAME = Shmup;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -918,7 +918,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv7]" = YES;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = shmup.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				IPHONE_OPTIMIZE_OPTIONS = "-skip-PNGs";
 				PRODUCT_BUNDLE_IDENTIFIER = net.fabiensanglard.dEngineBeta;
 				PRODUCT_NAME = Shmup;
@@ -947,7 +947,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv7]" = YES;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = shmupLite.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.fabiensanglard.dEngineLite;
 				PRODUCT_NAME = ShmupLite;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -972,7 +972,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv7]" = YES;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = shmupLite.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				IPHONE_OPTIMIZE_OPTIONS = "-skip-PNGs";
 				PRODUCT_BUNDLE_IDENTIFIER = net.fabiensanglard.dEngineLite;
 				PRODUCT_NAME = ShmupLite;
@@ -998,7 +998,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv7]" = YES;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = shmupLite.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				IPHONE_OPTIMIZE_OPTIONS = "-skip-PNGs";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fsingle-precision-constant";
@@ -1025,7 +1025,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv7]" = YES;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = shmupLite.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				IPHONE_OPTIMIZE_OPTIONS = "-skip-PNGs";
 				PRODUCT_BUNDLE_IDENTIFIER = net.fabiensanglard.dEngineLite;
 				PRODUCT_NAME = ShmupLite;
@@ -1064,7 +1064,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (
 					"-fasm-blocks",
@@ -1094,7 +1094,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv7]" = YES;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = shmup.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				IPHONE_OPTIMIZE_OPTIONS = "-skip-PNGs";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fsingle-precision-constant";
@@ -1134,7 +1134,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
@@ -1157,7 +1157,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv7]" = YES;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = shmup.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				IPHONE_OPTIMIZE_OPTIONS = "-skip-PNGs";
 				PRODUCT_BUNDLE_IDENTIFIER = net.fabiensanglard.dEngineBeta;
 				PRODUCT_NAME = Shmup;
@@ -1197,7 +1197,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_PREPROCESSOR_DEFINITIONS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-fsingle-precision-constant";
 				PREBINDING = NO;
@@ -1234,7 +1234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fsingle-precision-constant";
 				PREBINDING = NO;
