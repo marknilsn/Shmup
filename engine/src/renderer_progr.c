@@ -27,9 +27,6 @@
 #include "renderer_progr.h"
 
 #include "target.h"
-#if defined (SHMUP_TARGET_WINDOWS) || defined (SHMUP_TARGET_MACOSX) || defined (SHMUP_TARGET_LINUX)
-void initProgrRenderer(renderer_t* renderer){ Log_Printf("Shader renderer is not implemented.\n");exit(0);}
-#else
 
 #include "config.h"
 
@@ -41,13 +38,8 @@ void initProgrRenderer(renderer_t* renderer){ Log_Printf("Shader renderer is not
 #include "player.h"
 #include "enemy.h"
 
-#if defined(ANDROID)
-    #include <GLES2/gl2.h>
-    #include <GLES2/gl2ext.h>	
-#else
-    #include <OpenGLES/ES2/gl.h>
-    #include <OpenGLES/ES2/glext.h>
-#endif
+#include <OpenGLES/ES2/gl.h>
+#include <OpenGLES/ES2/glext.h>
 
 
 matrix_t projectionMatrix;
@@ -1125,6 +1117,3 @@ void initProgrRenderer(renderer_t* renderer)
 	SCR_CheckErrorsF("End of initProgrRenderer", "no details");
 
 }
-
-
-#endif

@@ -1293,11 +1293,9 @@ void P_Die(uchar playerId)
 	
 	players[playerId].invulnerableFor = PLAYER_INVUL_TIME_MS;
 	
-    // Nasty wrap-around bug here. If we allow respawnCounter to reache zero it will grap around to MAX_UCHAR...
-    // This only showed up on android because char are unsigned char....while they were signed char on other
-    // compilers used for macosx, windows and ios.
+	    // Nasty wrap-around bug here. If we allow respawnCounter to reach zero, it can wrap around to MAX_UCHAR.
     
-    //... or even become the maximun negative value depending if the plaftform treat char as signed or unsigned.
+	    // ...or even become the maximum negative value depending on whether char is signed or unsigned.
 //	if (players[playerId].respawnCounter >= 0)
 	if (players[playerId].respawnCounter  > 0)
 	{
@@ -1394,4 +1392,3 @@ void P_UpdateSSBoundaries(uchar pId)
 	players[pId].ss_boudaries[RIGHT] = (players[pId].ss_position[X] + 0.04)*SS_W;
 	
 }
-

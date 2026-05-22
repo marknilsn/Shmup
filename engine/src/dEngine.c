@@ -56,11 +56,7 @@
 
 engine_info_t engine;
 
-#ifdef SHMUP_TARGET_ANDROID
-    #define CONFIG_PATH "data/configAndroid.cfg"
-#else
-    #define CONFIG_PATH "data/config.cfg"
-#endif
+#define CONFIG_PATH "data/config.cfg"
 
 
 char* screenShotDirectory = "./";//"/Users/fabiensanglard/Pictures/dEngine/";
@@ -706,7 +702,6 @@ void dEngine_GoToNextScene(void)
 	
 	
 }
-
 
 
 

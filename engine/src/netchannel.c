@@ -25,23 +25,6 @@
 
 #include "netchannel.h"
 
-// The network version was designed on iOS with Unix socket. This part still needs to be ported using winsock32.
-#if defined(WIN32) || defined(ANDROID) || defined(LINUX)
-	int NET_Init(void){return 1;}
-	void NET_Setup(void){}
-	void NET_Receive(void){}
-	void NET_Send(void){}
-	void NET_Free(void){}
-	char NET_IsInitialized(){return 1;}
-	void Net_SendDie(command_t* command){}
-	void NET_OnActLoaded(void){}
-	void NET_OnNextLevelLoad(void){}
-	char NET_IsRunning(void){return 0;}
-	uint NET_GetDropedPackets(void){return 0;}
-
-	net_channel_t net;
-#else
-
 #define DNSServiceRefDeallocate(x)Log_Printf("DNSServiceRefDeallocate(" #x ")\n"); DNSServiceRefDeallocate(x) 
 
 
@@ -1246,6 +1229,3 @@ uint NET_GetDropedPackets(void)
 {
 	return net.numDropedPackets;
 }
-
-
-#endif

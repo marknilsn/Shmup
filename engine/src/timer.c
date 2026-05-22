@@ -34,7 +34,6 @@ void Timer_ForceTimeIncrement(int ms)
 	forcedTimeIncrement = ms;
 }
 
-#ifndef WIN32
 #include <sys/time.h>
 int E_Sys_Milliseconds( void )
 {
@@ -53,14 +52,6 @@ int E_Sys_Milliseconds( void )
 	
 	return (tp.tv_sec - secbase) * 1000 + tp.tv_usec / 1000;
 }
-#else
-#include "windows.h"
-#include "MMSystem.h"
-int E_Sys_Milliseconds( void )
-{
-	return (int)timeGetTime();
-}
-#endif
 
 unsigned char paused = 1;
 int fps=0;

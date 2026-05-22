@@ -63,7 +63,6 @@ int NET_Init(void);
 
 #define BUFFER_SIZE 1024
 
-#if !defined(WIN32) && !defined(ANDROID) && !defined(LINUX)
 #include <dns_sd.h>
 #include <netdb.h>		
 #include <net/if.h>
@@ -102,38 +101,6 @@ int				state;
 	uint numDropedPackets;
 	
 } net_channel_t;
-#else
-	
-typedef struct net_channel_t
-{
-	int						udpSocket;
-	//struct sockaddr_in		peerAddr; 
-	char					serverAddResolved ;
-	char					setupRequested;
-	uchar					buffer[BUFFER_SIZE];
-
-#define NET_UNKNOWN 0
-#define NET_SERVER  1
-#define NET_CLIENT  2
-int				type;
-	
-#define NET_UNDETERMINED	0
-#define NET_STARTED			1
-#define NET_PRELOADED		2
-#define NET_RUNNING			3
-int				state;
-	
-	
-	unsigned int lastReceivedSequenceNumber;
-	unsigned int lastSentSequenceNumber;
-	
-	uint numDropedPackets;
-	
-} net_channel_t;
-	
-#endif
-
-
 
 extern net_channel_t net;
 

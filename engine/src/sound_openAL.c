@@ -10,16 +10,8 @@
 #include "dEngine.h"
 #include "log.h"
 
-#ifdef WIN32
-#include "al.h"
-#include "alc.h"
-#elif defined (SHMUP_TARGET_ANDROID) || defined (SHMUP_TARGET_LINUX)
-#include "AL/al.h"
-#include "AL/alc.h"
-#else
 #include "OpenAL/al.h"
 #include "OpenAL/alc.h"
-#endif
 
 
 typedef struct sound_meta_s
